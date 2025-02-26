@@ -167,7 +167,7 @@ if st.button("Convert"):
         else:
             st.error("❌ Invalid conversion. Please check your units.")
 
-# AI Assistant
+# AI Assistant gemini
 st.subheader("💬 Ask AI (Powered by Gemini)")
 user_query = st.text_area("Enter your question:")
 
